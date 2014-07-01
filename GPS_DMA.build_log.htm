@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\ARM projektek\02 USART GPS _ KÉSZ\project.uvproj
+Project File Date:  06/24/2014
+
+<h2>Output:</h2>
+Build target 'USART_GPS'
+compiling stm32f4xx_it.c...
+linking...
+Program Size: Code=2668 RO-data=424 RW-data=64 ZI-data=2184  
+".\GPS_DMA.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\ARM projektek\\02 USART GPS _ KÉSZ\\GPS_DMA.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+r(s), 1 Warning(s).
+Load "D:\\ARM projektek\\02 USART GPS _ KÉSZ\\GPS_DMA.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+                       //50Mhz fast speed
+src\stm32f4xx_periph.c(44): warning:  #68-D: integer conversion resulted in a change of sign
+                        GPIOD ->        OSPEEDR         |=      (2<<30);                                                //50Mhz fast speed
+src\stm32f4xx_periph.c: 2 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling Nmea.c...
+src\Nmea.c(7): warning:  #550-D: variable "chk_ok" was set but never used
+  static uint16_t chk_ok;
+src\Nmea.c: 1 warning, 0 errors
+compiling stm32f4xx_rcc.c...
+linking...
+Program Size: Code=2600 RO-data=424 RW-data=60 ZI-data=2180  
+".\GPS_DMA.axf" - 0 Error(s), 4 Warning(s).
+Load "D:\\ARM projektek\\02 USART GPS _ KÉSZ\\GPS_DMA.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
